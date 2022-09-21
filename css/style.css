@@ -431,22 +431,23 @@ img {
 
 .link-icon {
     width: 20px;
-    margin: 12px;
     fill: #AFB1B8;
 
 }
 
-.social-link:hover svg,
-.link-icon:focus {
+.social-icon:hover svg,
+.social-link:focus {
+    background-color: var(--btn-color);
     fill: var(--btn-active-color);
     cursor: pointer;
 }
 
 .social-link:hover,
-.social-link:focus {
+.social-icon:focus {
     background-color: var(--btn-color);
     fill: var(--btn-active-color);
     cursor: pointer;
+    border-radius: 50%;
 }
 
 /* Section Regular */
@@ -676,7 +677,8 @@ a {
     justify-content: center;
 }
 
-.page-icon:hover,
-.page-icon:focus {
+.page-hover:hover,
+.page-hover:focus {
     background-color: var(--btn-color);
+    border-radius: 50%;
 }
