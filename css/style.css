@@ -139,7 +139,7 @@ header {
 .link.current::after {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
     content: "";
     width: 100%;
     height: 4px;
