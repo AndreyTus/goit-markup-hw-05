@@ -819,8 +819,8 @@ a {
     top: 0;
     left: 0;
     opacity: 1;
-    transition: opacity 500ms var(--timing-function),
-        visibility 500ms var(--timing-function);
+    transition: opacity 250ms var(--timing-function),
+        visibility 250ms var(--timing-function);
 }
 
 .modal {
